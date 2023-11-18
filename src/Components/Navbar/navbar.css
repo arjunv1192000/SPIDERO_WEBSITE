@@ -1,0 +1,314 @@
+/* navbar.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  font-family: "sofia", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+/* Header styles */
+header {
+  padding: 20px;
+  position: fixed;
+  background: transparent;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  z-index: 999;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  transition: background-color 0.3s ease;
+}
+
+.header-scroll {
+  background-color: white;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+  background-color: #fff;
+  font-family: "sofia", sans-serif;
+  margin: 0 auto;
+  font-size: 14px;
+  background: transparent;
+}
+
+/* Logo styles */
+.logo img {
+  padding-top: 10px;
+  width: 15rem;
+  height: 4rem;
+  margin-left: 50px;
+}
+
+/* Navigation styles */
+header ul {
+  list-style: none;
+}
+
+header .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+header .navbar ul li .nav-link {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding: 20px;
+  margin-top: 1.5rem;
+  color: rgb(123, 121, 121);
+  display: block;
+  text-decoration: none;
+  transition: color 0.4s ease-in-out;
+}
+
+.header-scroll .navbar ul li .nav-link {
+  color: black;
+}
+
+header .navbar ul li a .arrow {
+  height: 10px;
+  width: 22px;
+  text-align: center;
+  color: rgb(134, 129, 129);
+  line-height: 10px;
+  left: 4px black;
+  right: 4px black;
+}
+
+.header-scroll .navbar ul li a .arrow {
+  height: 10px;
+  width: 22px;
+  text-align: center;
+  color: #333;
+  line-height: 10px;
+  left: 4px #333;
+  right: 4px #333;
+}
+
+header .navbar ul li a .arrow:hover {
+  transform: rotate(180deg);
+}
+
+.button-contact-nav {
+  display: none;
+}
+
+header .navbar ul li ul {
+  position: absolute;
+  left: 0;
+  height: 200px;
+  width: 250px;
+  background-color: white;
+  display: none;
+  padding: 1px;
+  border-top: 2px solid black;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+header .navbar ul li ul::before {
+  content: "";
+  position: absolute;
+  top: -1.4rem;
+  left: 3rem;
+  border: .7rem solid transparent;
+  border-bottom: .7rem solid black;
+}
+
+header .navbar ul li ul a {
+  font-size: 15px;
+  padding-top: 2px;
+  color: #333;
+  text-decoration: none;
+}
+
+header .navbar ul li ul li {
+  width: 130%;
+  height: 1rem;
+}
+
+header .navbar ul li ul li a {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+.consulting-nav,
+.about-nav {
+  padding-top: 20px;
+}
+
+@keyframes spin {
+  0% {
+    list-style-type: disc;
+  }
+
+  50% {
+    list-style-type: circle;
+  }
+
+  100% {
+    list-style-type: square;
+  }
+}
+
+i.fa.fa-angle-down {
+  position: relative;
+}
+
+/* Navigation button styles */
+.navbtn {
+  border: 2px solid white;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: black;
+  margin-top: 0.2rem;
+  color: white;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAB9CAMAAAC8h45vAAAAA1BMVEX///+nxBvIAAAANUlEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg2eo8AAUlD21MAAAAASUVORK5CYII=");
+  background-position: 0 320%;
+  background-repeat: repeat-x;
+  height: 4rem;
+  width: 14rem;
+  font-weight: 100;
+  transition: 0.5s ease;
+  text-align: center;
+  line-height: 3.5rem;
+}
+
+.navbtn:hover {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  background-position: center;
+}
+
+.exp-content {
+  margin-left: 20rem;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+  display: initial;
+}
+
+#menu-bar {
+  display: none;
+}
+
+header label {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-btn1,
+.nav-btn2 {
+  display: none;
+}
+
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  /* Hamburger icon display */
+  .menu-icon {
+    display: initial;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+  }
+
+  header {
+    padding: 10px;
+    width: auto;
+    position: fixed;
+    background: transparent;
+    z-index: 999;
+  }
+
+  .header-scroll {
+    background-color: white;
+  }
+
+  header label {
+    display: initial;
+    margin-left: -2rem;
+  }
+
+  header .navbar {
+    position: fixed ;
+    top: 4rem;
+    width: 100%;
+    height: 100vh;
+    left: -100%;
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease-in-out;
+    
+  }
+
+  #menu-bar:checked ~ .navbar {
+    left: 0;
+  }
+
+
+  .logo img {
+    padding-top: 10px;
+    width: 15rem;
+    height: 4rem;
+    margin-left: 0;
+  }
+
+  .consulting-nav,
+  .about-nav {
+    padding-top: 0;
+  }
+
+  .exp-content {
+    margin-left: 0;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  header .navbar ul li {
+    width: 1800px;
+  }
+
+  .header .navbar ul li ul {
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+
+  header .navbar ul li ul li {
+    width: 100%;
+  }
+
+  header .navbar ul li ul::before {
+    display: none;
+  }
+
+  #menu-bar:checked ~ .navbar {
+    display: initial;
+  }
+
+  .nav-button {
+    flex-direction: column;
+  }
+
+ 
+}

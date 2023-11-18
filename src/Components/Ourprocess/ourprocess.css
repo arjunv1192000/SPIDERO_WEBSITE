@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+#our{
+    height:calc(200vh-4rem);
+    width: 100vw;
+    height: auto;
+    margin:0 auto;
+    overflow: visible;
+    position: relative;
+  }
+
+  scroll-container {
+    height: 1000px; /* Set a fixed height for the container */
+    overflow: hidden; /* Hide the overflow to prevent double scrolling */
+    background-color: aqua;
+  }
+  
+  .scroll-content {
+    height: 100%; /* Make the content div 100% height */
+    overflow-y: auto; /* Allow vertical scrolling for the content */
+    background-color: aqua;
+  }
+  .mySwiper{
+    width: 90%;
+    height: 1000px;
+    background-color: blueviolet;
+  }
+
+
+.frt{    
+    height:200vh;
+    width:100vw;
+    padding:0;
+    padding-top: 10rem;
+    text-decoration-color: black;
+    display: flex;
+    font-family: "Sofia", sans-serif;
+    flex-direction:column;
+    align-items:left;
+}
+.ab{
+    font-size: 11px;
+    padding-top: 3rem;
+    margin-bottom: -2rem;
+    letter-spacing: 8px;
+    margin-left: 6rem;
+}
+.servicebarText1 ul li{
+    display:flex;
+}
+.ab1{
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    line-height:1.5;
+    margin-left: 6rem;
+    margin-right: 30rem;
+    font-weight: 300;
+}
+.title h3{
+    font-size: 2.5rem;
+}
+.servicebars{
+    margin: 1.5rem;
+    width:100vw;
+    max-width:80%;
+    text-align: left;
+
+}
+
+.servicebar{
+    display: flex;
+    margin:2rem;
+    padding:1.5rem 2rem;
+    border-radius: 0.5rem;
+    background:black;
+}
+
+.servicebarText{
+    font-size: 1rem;
+    color: white;
+}
+.servicebarText1{
+    font-size: 1rem;
+    color: black;
+    margin-left: 3rem;
+}
+.custom li{
+    font-size: 1rem;
+    font-weight: 100;
+   
+}
+.service1 h4{
+    font-size: 2rem;
+    font-weight: 500;
+    color:black;
+    margin-left: 5rem;
+    padding-top: 1rem;
+}
+.service1 h4:hover{
+    color: blue;
+}
+.custom-objective{
+    font-size: 1.5rem;
+}
+
+.service2{
+    list-style-type: circle;
+    font-weight: 100;
+}
+.about{
+    margin-left: 3rem;
+    font-size: 1rem;
+    letter-spacing: 8px;
+    font-family: "sofia pro",sans-serif;
+    font-weight: 500;
+    color: red;
+}
+.title{
+    margin-left: 10rem;
+    padding-top: 4rem;
+}
+.design{
+    margin-left: 10rem;
+}
+.custom{
+    list-style-type: disc;
+}
+li{
+    margin-bottom: 20px;
+}
+.columncus {
+    float: left;
+    width: 25%;
+  }
+  .title1-ourprocess{
+   text-align: center;
+    margin-top: -44px;
+    font-size: 3rem;
+    margin-bottom: -2rem;
+  }
+  .title1-ourprocess1{
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  /* Clear floats after the columns */
+  .rowcus:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 20px 20px 0 rgb(6, 51, 51); /* this adds the "card" effect */
+    padding: 20px 20px;
+    width:13.5rem;
+    height:20rem;
+    margin-left: 1.5rem;
+    text-align: center;
+    background-color:black;
+  }
+ 
+  .se{
+    font-size: 1.5rem;
+    color: white;
+  }
+  .sec{
+    color: white;
+    font-size:1rem;
+    text-align: justify;
+  }
+  
+    .collab{
+        margin-top: -3rem;
+        padding-top: -13rem;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: -1em;
+    }
+    .collab1{
+        margin-top: 0;
+        padding-bottom: -8rem;
+        font-size: 1rem;
+        margin-bottom: 2em;
+    }
+    .rightcol{
+        background-color:white;
+        float: right;
+        height:400px;
+        width: 57%;
+    }
+    p{
+        margin:10px;
+        
+    }
+    .leftcol{
+        padding-top: -3rem;
+        background-color:white;
+        float: left;
+        height:400px;
+        width: 40%;
+    }
+    .cardbox{
+        position:relative;
+        width:200px;
+        height:100px;
+        border-radius: 10px;
+        transition:0.3s;
+        padding: 30px 50px;
+    }
+    .cardbox:hover{
+        height:320px;
+    }
+
+    .imgbox{
+        position: relative;
+        width: 100%;
+        height:100%;
+        border-radius: 5px solid black;
+        transform: translateY(-100px);
+    }
+    .imgbox1{
+        position: relative;
+        width: 100%;
+        height:100%;
+        border-radius: 5px solid black;
+        transform: translateY(-115px);
+    }
+
+    .time{
+        color:white;
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .content{
+        padding: 10px 20px;
+        text-align:center;
+        width:20rem;
+        transform: translateY(-250px);
+        color:black;
+        opacity:0;
+        transform:0.3s;
+        background-color: black;
+    }
+    .cardbox:hover >.content{
+        opacity:1;
+        transform:translateY(-300px)
+    }
+    .imgtool{
+        width:100px;
+        height:28px;
+    }
+    .cardtool{
+        padding-top: 10rem;
+        display:flex;
+        flex-direction: column;
+        
+       
+       
+    }
+    .cardtool1{
+        padding-top:3rem;
+        width:900px;
+    }
+    .imgSpace {
+        margin-right:50px; 
+       
+      }
+      
+    .splitour{
+        padding-top: 10rem;
+    }
+    .split{
+        width:100%;
+        height:auto;
+        display: flex;
+        flex-direction:row;
+    }
+
+
+    @media screen and (max-width: 768px) {
+        #our {
+            height: auto;
+            width:100%;
+        }
+    
+        .frt {
+            width: 100%;
+            margin-left: 0;
+            padding-top: 8rem;
+        }
+    .service1 h4{
+        font-size: 1.5rem;
+    }
+        .ab1 {
+            font-size: 1.2rem;
+            line-height: 30px;
+            margin-right: 1rem;
+        }
+    
+        .servicebar {
+            width:100%;
+            margin-left: -2rem;
+            margin-right: 3rem;
+        }
+    
+        .servicebarText {
+            font-size: 0.8rem;
+        }
+    
+        .servicebarText1 {
+            font-size: 0.8rem;
+            margin-left: 1rem;
+        }
+    
+        .service1 {
+            font-size: 1.5rem;
+            margin-left: 2rem;
+            margin-top: -30px;
+        }
+    
+        .title {
+            margin-left: 2rem;
+            margin-top: -30px;
+        }
+        .title.h3{
+           font-size:1rem ;
+        }
+    
+        .columncus {
+            float: none;
+            width: 100%;
+        }
+    
+        .title1-ourprocess {
+            margin-left: 2rem;
+            margin-top: -30px;
+            font-size: 20px;
+            margin-bottom: -1rem;
+        }
+        .img-design{
+            width:80%;
+            height:250px;
+        }
+        .card{
+            margin: 2rem;
+        }
+        .split{
+            margin-left: -1rem;
+            width:100%;
+            height:auto;
+            display: flex;
+            flex-direction:column;
+        }
+        .leftcol{
+            width:100%;
+            margin-left: 30px;
+        }
+        .rightcol{
+           display: none;
+        }
+        .cardtool{
+            display:none;
+        }
+        .about h1,h2{
+            font-size: 1rem;
+            margin-left: -3rem;
+        }
+        .custom-objective{
+            font-size: 1.5rem;
+            margin-left: 10px;
+        }
+        .design{
+            margin-left:2.5rem;
+        }
+        .collab{
+            
+            font-size: 2rem;
+            font-weight: bold;
+           
+        }
+        
+    }

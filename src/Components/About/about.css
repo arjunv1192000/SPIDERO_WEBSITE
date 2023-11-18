@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+ #about{
+    height:calc(400vh-4rem);
+    width: 100vw;
+    height: auto;
+    margin:0 auto;
+    overflow: visible;
+    position: relative;
+  }
+
+
+.nine{     
+    padding-top: 10rem;
+    display: flex;
+    font-family: 'Sofia', sans-serif;
+    flex-direction:column;
+    align-items:left;
+}
+.spi{
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration-color: black;
+    font-weight: 700;
+    padding-bottom: 6rem;
+}
+
+.about-head{
+    font-size: 3rem;
+}
+.container-about {
+
+    position: relative;
+    font-family: "sofia",sans-serif;
+    text-align: end;
+  }
+  
+  .text-block {
+    position: absolute;
+    top:100px;
+    bottom:80px;
+    right: 1000px;
+    color: white;
+    background: rgba(0,0,0,.9);
+    padding-left: 80px;
+    padding-right:20px;
+    padding-bottom: 100px;
+    height:28rem;
+    width:28rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0; /* Start with opacity 0 (hidden) */
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 1; /* Make the element fully visible */
+    transform: translateY(0);
+    flex: 1;
+  }
+
+ 
+  .boo-about{
+    font-size: 2rem;
+  }
+  .bo-about{
+        font-size: 1rem;
+  }
+  .our-story{
+    padding-top: 4rem;
+    margin-left: 16rem;
+  }
+  .our-story h1{
+    font-size: 2rem;
+  }
+  .our-story p{
+    line-height: 2;
+    font-size: 1.3rem;
+    margin-right: 40rem;
+    text-align: justify;
+  }.our-ethos{
+    padding-top: 8rem;
+    margin-left: 8rem;
+  }
+  .our-ethos h1{
+    font-size: 2.5rem;
+  }
+  .leftc-about{
+    background-color:white;
+    float: left;
+    height:800px;
+    width: 50%;
+  }
+  .splitc-about{
+    width:100%;
+    height:600px;
+    padding-top: 8rem;
+  }
+  .get-button{
+    margin-left: 40px;
+    padding-bottom: 20px;
+  }
+  .rightc-about{
+    background-color:black;
+    float: right;
+    height:600px;
+    width: 50%;
+  }
+  .address-about{
+    color:black;
+    margin-left: 20px;
+    font-size: 1rem;
+  }
+  .column-address {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  .imgweb-address-about{
+    width:2rem;
+    height:4rem;
+    padding-top: 1rem;
+  }
+ .title-address-about, .title-address1-about{
+    color:black;
+    font-size: 3rem;
+    margin-left: 2rem;
+  }
+  .item-our{
+    width: 16rem;
+    height: 2rem;
+    margin: 2px auto;
+    background:transparent;
+    text-align: center;
+    align-items: center;
+    padding-top: 5rem;
+    text-decoration-color: black;
+    opacity: 0; /* Start with opacity 0 (hidden) */
+    transform: translateY(-20px);
+    transition: opacity 1.5s ease, transform 1.5s ease;
+    flex: 1;
+    flex-direction: column;
+    box-sizing:border-box;
+    border-left:1px solid white;
+    
+  }
+  .item-our.aos-animate{
+    opacity: 1; /* Make the element fully visible */
+    transform: translateY(0);
+  }
+  .item-about{
+    width: 5rem;
+    height: 2rem;
+    background:transparent;
+    text-align: center;
+    align-items: center;
+    text-decoration-color: black;
+    opacity: 0; /* Start with opacity 0 (hidden) */
+    transform: translateY(-20px);
+    transition: opacity 1.5s ease, transform 1.5s ease;
+    flex: 1;
+    flex-direction: column;
+    box-sizing:border-box;
+    border-left:1px solid white;
+    
+  }
+  .item-about.aos-animate{
+    opacity: 1; /* Make the element fully visible */
+    transform: translateY(0);
+  }
+  .head-about{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top:-3rem;
+  }
+  .our-ethos-about{
+    padding-top: 2rem;
+    background-color: black;
+    color: white;
+    height:500px;
+    width:85%;
+  }
+  .column-about {
+    display: flex;
+    padding-top: 4rem;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height:5rem;
+  }
+  @media (max-width: 768px) {
+    /* Adjust styles for mobile devices here */
+    .nine {
+      padding-top: 10rem; /* Reduce padding-top for mobile */
+      margin-left: 1rem; /* Adjust margin for mobile */
+    }
+    
+    .spi {
+      font-size: 16px; /* Reduce font size for mobile */
+      margin-left: 1rem; /* Adjust margin for mobile */
+    }
+    
+    .about-head {
+      font-size: 1.5rem; /* Reduce font size for mobile */
+      margin-left: 1rem; /* Adjust margin for mobile */
+    }
+  
+    .container-about {
+      margin-left: 1rem; /* Adjust margin for mobile */
+      height:auto;
+    }
+    .nature{
+      width:100%;
+      height: 300px;
+    }
+    .text-block {
+     display: none;
+    }
+    .split-about{
+      width:100%;
+      padding-top: 14rem;
+    }
+    .left-about{
+      width:100%;
+    }
+    .title-div{
+      padding-top: 1rem;
+    }
+    .our-story {
+      padding-top: 1rem; /* Reduce padding-top for mobile */
+      margin-left: 1rem; /* Adjust margin for mobile */
+    }
+    
+    .our-story h1 {
+      font-size: 1.5rem; /* Reduce font size for mobile */
+    }
+    
+    .our-story p {
+      font-size: 1rem; /* Reduce font size for mobile */
+      text-align: justify;
+      margin-right: 2rem;
+    }
+    
+    .our-ethos {
+      padding-top: 4rem; /* Adjust padding for mobile */
+      margin-left: 1rem; /* Adjust margin for mobile */
+    }
+    
+    .our-ethos h1 {
+      font-size: 1.5rem; /* Reduce font size for mobile */
+    }
+    
+    .leftc-about{
+      width:100%;
+      height:400px;
+      text-align: start;
+    }
+    .rightc-about {
+      width: 100%; /* Use full width for mobile */
+    }
+    
+    .imgweb-address-about {
+      width: 1rem; /* Reduce size for mobile */
+      height: 2rem; /* Reduce size for mobile */
+      padding-top: 0.2rem; /* Adjust padding for mobile */
+    }
+    
+    .title-address-about,
+    .title-address1-about {
+      font-size: 1.5rem; /* Reduce font size for mobile */
+      margin-left: 1rem; /* Adjust margin for mobile */
+    }
+    
+    .item-our {
+      padding-top: 1rem; /* Adjust padding for mobile */
+    }
+    
+    .head-about {
+      margin-left: 1rem; /* Adjust margin for mobile */
+      margin-bottom: 1rem;
+      margin-top: -1rem; /* Adjust margin for mobile */
+    }
+    
+    .our-ethos-about {
+      padding-top: 1rem; /* Adjust padding for mobile */
+      margin-right: 1rem; /* Adjust margin for mobile */
+      margin-bottom: 2rem; /* Adjust margin for mobile */
+      height:700px;
+      width: 100%;
+    }
+    
+    .column-about {
+      padding-top: 1rem; /* Adjust padding for mobile */
+    }
+    .ind-address{
+      padding-top: 2rem;
+      margin-left: -6rem;
+      font-size: 0.8rem;
+    }
+    /* .row{
+      flex-direction: row;
+      width:100%;
+    } */
+    .column-address{
+        width:100%;
+        height:25%;
+    }
+  }

@@ -1,0 +1,936 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+#exp{
+    height:calc(200vh-4rem);
+    width: 100vw;
+    height: auto;
+    margin:0 auto;
+    overflow: visible;
+    position: relative;
+  }
+
+
+.trd{    
+    height:auto;
+    width:100vw;
+    padding:0px;
+    padding-top: 10rem;
+    text-decoration-color: black;
+    display: flex;
+    font-family: 'Sofia', sans-serif;
+    flex-direction:column;
+    align-items:left;
+}
+.conexp{
+    margin-left: 8rem;
+    margin-right: 30rem;
+}
+.splitconsulting{
+padding-top: 1rem;
+width:100%;
+height:800px;
+background-color: white;
+}
+.abs{ 
+    font-size: 11px;
+    letter-spacing: 8px;
+    font-weight: 900;
+}
+
+.ab1-consulting{
+    padding-top: 4rem;
+    font-size: 34px;
+    line-height: 48px;
+    font-weight: 900;
+}
+.splitcon{
+    padding-top: 3rem;
+    width: 100%;
+    height:500px;
+    align-content: center;
+}
+.rightofconsulting{
+    background-color:#f2ebeb;
+    float: right;
+    height:500px;
+    width: 30%;
+}
+.leftofconsulting{
+    background-color:#f2ebeb;
+    float: left;
+    height:500px;
+    width: 30%;
+}
+.prps{
+    font-size: 36px;
+    line-height: 42px;
+    width: 400px;
+    margin-left: 300px;
+}
+.consulting-main{
+    padding-top: 4rem;
+}
+.cardcon{
+    width:80%;
+    margin-left:4rem;
+    background-color:#f2ebeb;
+    margin-bottom: 4rem;
+
+}
+.checkbox{
+     border: 4px solid black;
+}
+.rowcon{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.ab2{
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 800;
+    align-content: center;
+    padding-left: 1rem;
+    text-align: justify;
+}
+.check{
+    padding-top: 10rem;
+    padding-left: 3rem;
+}
+.abe{
+    font-size: 11px;
+    letter-spacing: 8px;
+    font-weight: bolder;
+    padding-top: 13rem;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.exper{
+    width:20px;
+    height:20px;
+}
+.split-consulting{
+    width:100%;
+    height:400px;
+    padding-top: 4rem;
+}
+.split-consulting1 {
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  .leftc1,
+  .rightc1 {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    
+  }
+  
+ 
+  
+  .split-consulting2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  .leftc2,
+  .rightc2 {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .tablediv{
+    width: 100%;
+    height: 800px;
+   
+  }
+  .tableimg{
+    margin-left: 230px;
+    
+  }
+  
+  .suc1 {
+    width:100%;
+    height:1000px;
+    background-color:white;
+   
+  }
+.splitmob{
+    padding-top:10rem;
+    width:100%;
+    height:100px;
+    padding-bottom: 5rem;
+}
+.leftmob{
+    background-color: black;
+    width:50%;
+    height:100px;
+    float: left;
+    text-decoration-color:white;
+}
+.rightmob{
+    background-color: white;
+    width:50%;
+    height:100px;
+    float: left;
+}
+.splitmob h1{
+    font-size: 2.5rem;
+}
+.splitlr1{
+    padding-top:5rem;
+    width: 100%;
+    height:1000px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+}
+.rightlr1{
+    background-color:white;
+    float: right;
+    height:500px;
+    width: 50%;
+}
+.leftlr1{
+    background-color:white;
+    float: left;
+    height:500px;
+    width: 50%;
+    margin-left:100px;
+}
+.people{
+    width: 100%;
+    height: 500px;
+   
+}
+.splitmobil{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+   
+   
+   
+}
+.splitmobil1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+   
+   
+}  
+.left1{
+    width: 50%;
+    height: 700px;
+    float: left;
+   
+}
+.right1{
+    width: 50%;
+    height:700px;
+    float: right;
+}
+
+
+.splitmobil5{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    
+  
+   
+   
+}  
+.planinghead{
+    font-size: 2.5rem;
+    margin-left: 300px;
+   
+    
+}
+.planingpar{
+    font-size: 18px;
+    text-align:start;
+    width: 800px;
+    margin-left:300px;
+    line-height: 1.5;
+    font-weight: 550;
+   padding-bottom: 30px;
+}
+
+.left5{
+    width: 95%;
+    height: 700px;
+    margin-left: 120px;
+   
+ 
+  
+}
+
+.splitmobil4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+   
+   
+}  
+.left4{
+    width: 50%;
+    height: 700px;
+    float: left;
+   
+}
+.right4{
+    width: 50%;
+    height:700px;
+    float: right;
+}
+.splitmobil3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+   
+
+}  
+.left3{
+    width: 50%;
+    height: 700px;
+    float: left;
+   
+}
+.right3{
+    width: 50%;
+    height:700px;
+    float: right;
+}
+.innerbox{
+    width: 50%;
+    height: 70%;
+    margin-top: 100px;
+    margin-left: 200px;
+   
+}
+.innerbox1{
+    width: 50%;
+    height: 70%;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+   
+}
+.innerbox1 h4{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+.innerbox1 p{
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.innerbox h4{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+.innerbox p{
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.carder1inc{
+   text-align:start ;
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: sans-serif;
+  }
+ .carder1inpc{
+    font-size: 16px;
+    text-align: start;
+    font-weight: 600;
+    line-height: 1.5;
+ }
+ .card5{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 20px 20px;
+    width:20rem;
+    height:15rem;
+    margin-left: 4rem;
+    text-align: center;
+    background-color:white;
+  }
+  .capabilities-head-in{
+    margin-left: -2rem;
+    width:80%;
+    height:500px;
+  }
+ 
+ 
+  .webdesign-header h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .row-brand{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 180px;
+    margin-bottom: 100px;
+  }
+
+
+  
+
+  
+
+
+.container-about1 {
+    position: relative;
+    font-family: "sofia",sans-serif;
+    text-align: end;
+    height:auto;
+    margin-top:200px;
+    margin-bottom:300px;
+   
+  }
+
+  .text-block1 {
+    position: absolute;
+    top:500px;
+    right:1000px;
+    color: white;
+    background: rgba(0,0,0,.9);
+    padding-left: 20px;
+    padding-right:20px;
+    height:20rem;
+    width:28rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0; /* Start with opacity 0 (hidden) */
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 1; /* Make the element fully visible */
+    transform: translateY(0);
+    flex: 1;
+  }
+  .text-blockhead{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .text-blockp{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: start;
+  }
+ 
+  .content-container {
+    width: 70%; 
+    margin-bottom: 20px;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-container h2{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+
+  }
+  .header-containerp{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight:550;
+  }
+  .p111{
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 500px;
+    font-weight:550;
+    line-height: 1.5;
+  }
+  .entp{
+    width: 100%;
+    height: 300px;
+   
+  }
+  .peplehead{
+    text-align: center;
+    font-size: 3rem;
+  }
+  .peoplecontnet{
+    text-align: start;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .peoplediv{
+    margin-left:500px;
+    width: 800px;
+    height: 300px;
+   
+  }
+  .peoplename{
+    margin-top: 20px;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0;
+    color: #000000;
+
+  }
+  .swipe{
+    height:auto;
+}
+.splitblack{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.splitblackleft{
+    width: 60%;
+    height: auto;
+    background-color: rgb(3, 3, 3);
+}
+.splitblackleft h2{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.splitblackright{
+    width: 40%;
+    height: auto;
+    background-color: rgb(3, 3, 3);
+}
+ 
+ .cuspar12{
+    font-family: sans-serif;
+    font-size: 28px;
+    width: 400px;
+    font-weight: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+ }
+ 
+@media(max-width: 500px) {
+    .conexp{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .ab1-consulting{
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    .abs{
+        font-size: 10px;
+    }
+}
+@media (max-width: 767px){
+    .splitcon{
+        flex-direction: row;
+        margin-left: -1rem;
+        height:200px;
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .leftofconsulting,.rightofconsulting{
+        width:35%;
+        height:200px;
+    }
+    .abe{
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+    .check{
+        padding-top: 1rem;
+    }
+    .exper{
+        width:20px;
+        height:20px;
+    }
+    .ab2{
+        font-size: 20px;
+       
+    }
+    .rowcon{
+        flex-direction: row;
+        margin-left: -2rem;
+    }
+    .cardcon{
+        width:80%;
+        height:12rem;
+        background-color:#f2ebeb;
+        flex-direction: row;
+        margin-left:1rem;
+       
+    }
+    .splitc{
+        flex-direction: column;
+    }
+    .leftc{
+       display:none;
+    }
+    .rightc{
+        width: 100%;
+    }
+    .rightofconsulting, .leftofconsulting{
+        width:100%;
+        height:200px;
+    }
+    .ab2{
+        font-size: 16px;
+        line-height: 2;
+        font-weight: 800;
+        align-content: center;
+        padding-left: 1rem;
+        text-align: justify;
+    }
+    .column{
+        margin-left: 50px;
+    }
+    .check{
+        
+        padding-left: 1rem;
+    }
+    .container-about1 {
+        margin-top: 50px; 
+        margin-bottom: 150px;
+      }
+    
+      .text-block1 {
+        top: 150px;
+        right: auto;
+        bottom: 0;
+        left: 0;
+        width: 75%;
+        transform: translateY(0);
+      }
+      .container-about1 img {
+        width: 100%; /* Set the image width to 100% in mobile view */
+        height: auto; /* Maintain the aspect ratio */
+      }
+      .split-consulting1 {
+        margin-top: 300px;
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        height: auto;
+       
+      }
+      .content-container {
+        width: 70%; 
+        margin-bottom: 20px;
+        margin-left: 50px;
+      }
+      .split-consulting2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+       
+      }
+      .splitlr1{
+        padding-top:5rem;
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-direction:column;
+        margin: 0;
+    }
+    .suc1 {
+        width:100%;
+       height: auto;
+        background-color:white;
+      }
+      .leftlr1{
+        background-color:white;
+        height:auto;
+        width: 100%;
+        margin-left: 0;
+       
+    }
+    .rightlr1{
+        background-color:white;
+        height:auto;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .splitmobil{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction:column;
+       
+
+    }
+    .splitmobil1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+       
+    }  
+    .splitmobil4{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+       
+       
+    }  
+   
+    .splitmobil3{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+    
+    } 
+    .left1{
+        width: 100%;
+        height: auto;
+       
+       
+    }
+    .right1{
+        width: 100%;
+        height:auto;
+       
+    } 
+    .left4{
+        width: 100%;
+        height: auto;
+       
+       
+    }
+    .right4{
+        width: 100%;
+        height:500px;
+       
+    }
+    .left3{
+        width: 100%;
+        height: auto;
+        
+       
+    }
+    .right3{
+        width: 100%;
+        height:auto;
+       
+    }
+    .innerbox{
+        width: 100%;
+        height:auto;
+        margin-top: 200px;
+        margin-left: 0;
+       
+    }
+    .innerbox1{
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+        margin-left: 0;
+        
+       
+    }
+    .innerbox1 h4{
+        font-size: 2.5rem;
+        font-family: sans-serif;
+    }
+    .innerbox1 p{
+        font-size: 1rem;
+        line-height: 2;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+    .innerbox h4{
+        font-size: 2.5rem;
+        font-family: sans-serif;
+    }
+    .innerbox p{
+        font-size: 1rem;
+        line-height: 2;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+    .container-about2{
+        margin-top: 50px;
+    }
+    .planingpar{
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        margin-left:0;
+
+       
+    }
+    .left5{
+        width: 95%;
+        height: 400px;
+        margin-left:0;
+    }
+    .left5 img{
+        width: 100%;
+        height: 400px;
+    }
+    .capabilities-head-in{
+       margin-left: o;
+        width:100%;
+        height:auto;
+      }
+      .row-brand{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 100px;
+      }
+      .people{
+        width: 100%;
+        height: 300px;
+        margin-top: 100px;
+       
+      }
+      .peoplecontnet{
+        text-align: start;
+        font-size: 1.5rem;
+      }
+      .peoplediv{
+        margin-left:10px;
+        width:100%;
+        height: 150px;
+       
+      }
+      .peoplename{
+        margin-top: 20px;
+        font-size: .7rem;
+        text-align: start;
+      
+      }
+      .peplehead{
+        font-size: 1.5rem;
+      }
+      .prps{
+        font-size: 26px;
+        line-height: 42px;
+        width: 300px;
+        margin-left: 0px;
+    }
+    .p111{
+        font-family: sans-serif;
+        font-size: 15px;
+        width: 300px;
+        font-weight:550;
+        line-height: 1.5;
+      }
+      .tablediv{
+        display: none;
+      }
+      .splitblack{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+    
+    }
+    .splitblackleft{
+        width: 100%;
+        height: auto;
+        background-color: rgb(3, 3, 3);
+    }
+    .splitblackleft h2{
+        color: aliceblue;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .splitblackright{
+        width: 100%;
+        height: auto;
+        background-color: rgb(3, 3, 3);
+    }
+    .text-blockhead{
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: normal;
+      }
+      .text-blockp{
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: start;
+      }
+      .web-developmentimg{
+        width: 100%;
+        height: auto;
+      }
+      .planinghead{
+        font-size: 2.5rem;
+        margin-left: 30px;
+       
+        
+    }
+    .card5{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+        padding: 20px 20px;
+        width:100%;
+        height:15rem;
+        margin-left: 0;
+        text-align: center;
+        background-color:white;
+      }
+      .cuspar12{
+        font-family: sans-serif;
+        font-size: 26px;
+        width: 400px;
+        font-weight: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+     }
+     .capabilities-head{
+        margin-left: 0;
+    }
+    
+}

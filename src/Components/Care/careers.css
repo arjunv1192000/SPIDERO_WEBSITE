@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+#car{
+    height:calc(200vh-4rem);
+    width: 100vw;
+    height: auto;
+    margin:0 auto;
+    overflow: visible;
+    position: relative;
+  }
+
+
+.careers{    
+    height:auto;
+    width:100vw;
+    padding:0px;
+    padding-top: 10rem;
+    text-decoration-color: black;
+    display: flex;
+    font-family: 'Sofia', sans-serif;
+    flex-direction:column;
+   
+   
+}
+
+.career-head1{
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: sans-serif;
+   
+   
+}
+.career-head2{
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+    margin-top: 10px;
+   
+   
+    
+}
+.careers-head{
+   width:50%;
+   margin-top: 10px;
+   margin-left: 300px;
+
+}
+.container-career{
+
+    position: relative;
+    font-family: "sofia",sans-serif;
+    margin-top: 100px;
+    
+  }
+  
+  .text-block4 {
+    position: absolute;
+    top:100px;
+    bottom:80px;
+    right:1000px;
+    color: rgb(11, 11, 11);
+    background: rgba(246, 244, 244, 0.9);
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom:50px;
+    height:23rem;
+    width:23rem;
+    opacity: 0; /* Start with opacity 0 (hidden) */
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 1; /* Make the element fully visible */
+    transform: translateY(0);
+    flex: 1;
+  }
+.roles{
+    width: 80%;
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    
+}
+.rolecard {
+    width: 300px;
+    height: 200px;
+    background-color: white; 
+    margin-top: 100px;
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 1px solid #ccc; 
+    padding: 20px; 
+}
+
+.rolecard h2 {
+    margin-bottom: 10px; 
+}
+rolecard h4 {
+    margin-bottom: 10px; 
+}
+
+.rolecard p {
+    margin-top: 10px; 
+}
+.text-blockhead1{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 5.4px;
+    margin: 0 0 20px 0;
+    margin-top: 100px;
+  }
+  .text-blockp1{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.6;
+    letter-spacing: normal;
+    font-family: sans-serif;
+  }
+
+
+  @media (max-width: 768px){
+    .careers{    
+        padding-top: 6rem;
+       
+       
+    }
+    
+    .career-head1{
+        font-size: 1rem;
+        font-weight: 900;
+        font-family: sans-serif;
+       
+       
+    }
+    .career-head2{
+        font-size: 26px;
+        line-height: 48px;
+        font-weight: 600;
+        margin-top: 10px;
+       
+       
+        
+    }
+    .careers-head{
+       width:90%;
+       margin-top: 10px;
+       margin-left: 30px;
+       height: 300px;
+    
+    }
+    .container-career{
+    
+        position: relative;
+        font-family: "sofia",sans-serif;
+        margin-top: 100px;
+        
+      }
+      
+      .text-block4 {
+        position:relative;
+        right:0px;
+        color: rgb(11, 11, 11);
+        background: rgba(246, 244, 244, 0.9);
+        height:auto;
+        width:23rem;
+        opacity: 0; /* Start with opacity 0 (hidden) */
+        transform: translateY(-20px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+        opacity: 1; /* Make the element fully visible */
+        transform: translateY(0);
+        flex: 1;
+      }
+    .roles{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        
+    }
+    .rolecard {
+        width: 300px;
+        height: 200px;
+        background-color: white; 
+        margin-top: 100px;
+        flex: 1;
+        margin-right: 20px;
+        margin-left: 20px;
+        border: 1px solid #ccc; 
+        padding: 20px; 
+    }
+    
+    .rolecard h2 {
+        margin-bottom: 10px; 
+    }
+    rolecard h4 {
+        margin-bottom: 10px; 
+    }
+    
+    .rolecard p {
+        margin-top: 10px; 
+    }
+    .text-blockhead1{
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 5.4px;
+        margin: 0 0 20px 0;
+        margin-top: 0px;
+      }
+      .text-blockp1{
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1.6;
+        letter-spacing: normal;
+        font-family: sans-serif;
+      }
+      .nature1{
+        width: 100%;
+        height: 300px;
+      }
+    
+
+  }

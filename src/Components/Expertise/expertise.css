@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+#exper1{
+    height:calc(680vh-4rem);
+    width: 100vw;
+    height: auto;
+    margin:0 auto;
+    overflow: visible;
+    position: relative;
+  }
+
+
+.tnd{    
+  height:680vh;
+  width:100vw;
+  padding:0;
+  padding-top: 10rem;
+  text-decoration-color: black;
+  display: flex;
+  font-family: 'Sofia pro', sans-serif;
+  flex-direction:column;
+  align-items:left;
+}
+.ab-expertise{
+  font-size: 15px;
+  letter-spacing: 8px;
+  font-weight: bolder;
+  margin-left: 6rem;
+}
+
+.abex{
+  font-size: 1.8rem;
+  line-height: 43px;
+  font-weight: bolder;
+  padding-top: 1rem;
+  margin-right: 30rem;
+  margin-left: 6rem;
+}
+.splitexpr{
+  width:100%;
+  height:800px;
+  padding-top: 2rem;
+}
+.splitexpr1{
+  width:100%;
+  height:800px;
+  padding-top: 12rem;
+}
+.splitexper{
+  width:100%;
+  height:8000px;
+}
+.leftexper{
+  margin-left: 4rem;
+  background-color:white;
+  float: left;
+  height:400px;
+  width: 50%;
+}
+.rightexper{
+  background-color:white;
+  float: right;
+  height:400px;
+  width: 40%;
+}
+.con1{
+  font-size: 1rem;
+  
+}
+h1{
+  align-content: center;
+}
+.con2{
+  font-size: 1rem;
+}
+.stitle1{
+  font-size: 18px;
+  font-family: "sofia",sans-serif;
+ 
+  line-height: 1.56;
+}
+.experti{
+  font-size: 1rem;
+  list-style-type: disc; /* Initial list style type */
+  animation: spin 2s linear infinite;
+}
+.custom-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for the expertise item */
+.expertise {
+  margin-left: 20px; 
+/* Add space to the left */
+text-decoration: none;
+}
+
+/* Style for the startup item */
+.startup {
+  text-align: left; /* Right-align the text */
+  margin-left: 20px; /* Add space to the right */
+}
+.leftexper1{
+  background-color:white;
+  float: left;
+  height:400px;
+  width: 40%;
+  margin-left: 2rem;
+}
+.rightexper1{
+background-color:white;
+float: right;
+height:400px;
+width: 50%;
+}
+.ent{
+  color:black;
+  text-decoration: none;
+}
+
+/* Style for the arrow */
+.arrow {
+  margin-left: 5px; /* Add space between the text and arrow */
+  font-size: 18px; /* Adjust arrow size */
+}
+
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.image-container {
+  padding-top: 8rem;
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.white-background {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  align-content: center;
+  width: 60%; /* Adjust the width as needed */
+  height: 60%; /* Adjust the height as needed */
+  opacity: 0.7; /* Adjust the opacity as needed */
+  z-index: 1;
+}
+.imgexp{
+  background-color: white;
+  align-content: center;
+}
+.our1{
+  align-content: center;
+}
+.item3 {
+  width: 300px;
+  height: 500px;
+  margin: 0;
+  background:black;
+  text-align: center;
+  align-items: center;
+  margin-right:0;
+  font-size: 1rem;
+  text-decoration-color:white;
+  font-size: 1rem;
+  opacity: 0; 
+  transform: translateY(-20px);
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  flex: 1;
+  flex-direction: column;
+  box-sizing:border-box;
+}
+
+.ab3{
+  width:25rem;
+  height:25rem;
+}
+.ab4{
+  margin-left:1rem;
+  color:white;
+}
+.item3.aos-animate{
+  opacity: 1; /* Make the element fully visible */
+  transform: translateY(0);
+}
+.blak1{
+  align-content: center;
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 3rem;
+  color:white ;
+}
+.blak{
+  width:100%;
+  height:1200px;
+  margin-bottom: 100px;
+}
+.grid2x2 {
+  height:5rem;
+  width:fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  opacity: 0; /* Start with opacity 0 (hidden) */
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 1; /* Make the element fully visible */
+  transform: translateY(0);
+  flex: 1;
+}
+.row-pro{
+  padding-top: 8rem;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+
+  margin-left: 150px;
+}
+.but{
+  padding-top: 4rem;
+  align-content: center;
+  margin-left: 45rem;
+  padding-bottom: 4rem;
+}
+.grid2x2web{
+  background-color: black;
+  height:auto;
+ 
+}
+.split-expertise{
+  width:100%;
+  height:900px;
+  padding-top: 5rem;
+}
+.exper1{
+  margin-left: 15rem;
+}
+.people1{
+  width: 100%;
+  height: 500px;
+
+  margin-top: 100px;
+ 
+}
+.peoplecontnet1{
+  text-align: start;
+  font-size: 2.5rem;
+}
+.peoplediv1{
+  margin-left:500px;
+  width: 800px;
+  height: 300px;
+ 
+}
+.peoplename1{
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: start;
+
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+{
+  #exper1 {
+    width: 100%;
+    height: auto; /* Remove fixed height */
+    overflow: visible;
+    position: relative;
+  }
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+{
+  .tnd {
+    padding-top:10rem; /* Adjust padding for smaller screens */
+    margin: 0;
+    text-align: center; /* Center text */
+  }
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+{
+  .ab-expertise {
+    font-size: 12px; /* Increase font size for readability */
+    letter-spacing: 1px; /* Adjust letter spacing */
+    font-weight: bold;
+  }
+  .split{
+    padding-top: 1rem;
+  }
+  .abex {
+    font-size: 1.2rem; /* Increase font size for readability */
+    line-height: 1.5; /* Adjust line height */
+    font-weight: bold;
+    text-align: justify;
+    margin-right: 0;
+    text-align: start;
+    margin-left: 1rem;
+  }
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+{
+  
+  .splitexper {
+    width: 100%;
+    height: auto; /* Remove fixed height */
+  }
+  
+  .leftexper{
+    width: 100%; /* Full-width for smaller screens */
+    float: none; /* Remove floats */
+    height:auto;
+    margin-left: -2rem;
+  }
+  .rightexper {
+    width: 100%; /* Full-width for smaller screens */
+    float: none; /* Remove floats */
+    height:auto;
+  }
+  .leftexper1{
+    width: 100%; /* Full-width for smaller screens */
+    float: none; /* Remove floats */
+    height:300px;
+    margin-left: -2rem;
+  }
+  .rightexper1 {
+    width: 100%; /* Full-width for smaller screens */
+    float: none; /* Remove floats */
+    height:600px;
+  }
+  .exper2{
+    width:100%;
+  }
+  .con1,
+  .con2 {
+    font-size: 1rem;
+    text-align: center; /* Center text */
+  }
+  
+  .stitle1 {
+    font-size: 16px; /* Increase font size for readability */
+    margin-left: 50px;
+    text-align: start; /* Center text */
+  }
+  
+  .experti {
+    font-size: 1rem;
+    list-style-type: disc;
+    text-align: left; /* Adjust text alignment */
+    animation: none; /* Remove animation */
+  }
+
+  .exper3{
+    margin-left:0;
+    width:100%;
+  }
+  .custom-list {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Remove styles for expertise and startup items */
+  
+  .ent {
+    color: black;
+    text-decoration: none;
+  }
+  /* Remove arrow styles */
+  
+  /* Remove fadeIn animation for images */
+  
+  .image-container {
+    padding-top: 2rem; /* Adjust spacing */
+  }
+  
+  .image {
+    max-width: 100%; /* Ensure images fit within the container */
+    height: auto;
+    display: block;
+  }
+  
+  .white-background {
+    display: none; /* Remove white background */
+  }
+  .splitexpr{
+    width:100%;
+    height:1000px;
+    padding-top: 2rem;
+  }
+  .splitexpr1{
+    width:100%;
+    height:800px;
+    padding-top: 1rem;
+  }
+  .row-pro{
+    flex-direction: column;
+  }
+}
+@media (min-device-width : 320px) and (max-device-width : 480px)
+{
+  .imgexp {
+    background-color: white;
+    align-content: center;
+  }
+  
+  .our1 {
+    text-align: center; /* Center text */
+  }
+  
+  .item3 {
+    width: 100%; /* Full-width for smaller screens */
+    height: auto; /* Remove fixed height */
+    margin: 0;
+    text-align: center; /* Center text */
+    padding: 1rem; /* Adjust padding */
+    opacity: 1; /* Remove initial opacity and transform */
+    transform: none;
+  }
+  
+
+  
+  .ab4 {
+    color: white; /* Adjust text color */
+  }
+  
+  .blak1 {
+    text-align: center; /* Center text */
+    color: white; /* Adjust text color */
+    margin-left: 0;
+  }
+  
+  .blak {
+    display: none;
+  }
+  
+  .grid2x2web {
+    background-color: black;
+    height: auto; /* Remove fixed height */
+  }
+  .leftc{
+    display:none;
+  }
+  .split-expertise{
+    padding-top: 1rem;
+  }
+  .ab3{
+    width:100%;
+  }
+  .exper1{
+    margin-left: 3rem;
+    width:100%;
+  }
+  .people1{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+   
+  }
+  .peoplecontnet1{
+    text-align: start;
+    font-size: 1.5rem;
+  }
+  .peoplediv1{
+    margin-left:10px;
+    width:100%;
+    height: 150px;
+   
+  }
+  .peoplename1{
+    margin-top: 20px;
+    font-size: .7rem;
+    text-align: start;
+  
+  }
+  .peplehead1{
+    font-size: 1.5rem;
+  }
+  
+}
+
+
+

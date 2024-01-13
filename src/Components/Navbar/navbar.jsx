@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     <header className={isScrolled ? "header-scroll" : "header"}>
       <a href="/" className="logo">
-        <img src={logo} alt="profile" width="3rem" height="1.5rem" />
+        <img src={logo} alt="profile" width="4rem" height="1rem" />
       </a>
       <input type="checkbox" id="menu-bar" />
       <label for="menu-bar">

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e0cd0851.css",
-    "main.js": "/static/js/main.ef5203cc.js",
+    "main.js": "/static/js/main.62fe008b.js",
     "static/media/Scanning Artificial Intelligence GIF by xponentialdesign - Find & Share on GIPHY.gif": "/static/media/Scanning Artificial Intelligence GIF by xponentialdesign - Find & Share on GIPHY.6ecb0e4e70c7e42d3ef7.gif",
     "static/media/slideC.jpg": "/static/media/slideC.02c7acb98628314b3ac3.jpg",
     "static/media/mobile-app-nyc-banner@2x (1).jpg": "/static/media/mobile-app-nyc-banner@2x (1).f482bcf32a819bb276a1.jpg",
@@ -48,6 +48,7 @@
     "static/media/media@2x.jpg": "/static/media/media@2x.d5e3e798fc78e5993247.jpg",
     "static/media/wdc-banner-new@2x.jpg": "/static/media/wdc-banner-new@2x.4d2f701d228bffaedc2c.jpg",
     "static/media/testing@2x.jpg": "/static/media/testing@2x.74f658c62c5114d790ea.jpg",
+    "static/media/companylogo.png": "/static/media/companylogo.0175116a33a3ee1e4f0b.png",
     "static/media/slideB.jpg": "/static/media/slideB.33b5d325b2f605eeaec9.jpg",
     "static/media/Service-Page-Web-Development-Image@2x.jpg": "/static/media/Service-Page-Web-Development-Image@2x.eb46a45d05e6d054d6e5.jpg",
     "static/media/Service-Page-Technology-Image@2x.jpg": "/static/media/Service-Page-Technology-Image@2x.354d38bc5f6da667547f.jpg",
@@ -68,7 +69,6 @@
     "static/media/ux-p4@2x.jpg": "/static/media/ux-p4@2x.fe26cc4410afac52744a.jpg",
     "static/media/ux-p5@2x.jpg": "/static/media/ux-p5@2x.2e952863d35550a81a88.jpg",
     "static/media/Service-Page-eCommerce-Image@2x.jpg": "/static/media/Service-Page-eCommerce-Image@2x.d9a2a10d3b0afde5a2e4.jpg",
-    "static/media/companylogo.png": "/static/media/companylogo.720ba17b01c6cc66fbd6.png",
     "static/media/london.jpg": "/static/media/london.7221b7183208c14a86e1.jpg",
     "static/media/finance-industry-pic@2x.jpg": "/static/media/finance-industry-pic@2x.5c709cb2049cee66611a.jpg",
     "static/media/ux-p3@2x.jpg": "/static/media/ux-p3@2x.86c67c582d227a2b7a68.jpg",
@@ -118,10 +118,10 @@
     "static/media/custom9.svg": "/static/media/custom9.134804c6c69a4d357df5b972fd9c7e9e.svg",
     "index.html": "/index.html",
     "main.e0cd0851.css.map": "/static/css/main.e0cd0851.css.map",
-    "main.ef5203cc.js.map": "/static/js/main.ef5203cc.js.map"
+    "main.62fe008b.js.map": "/static/js/main.62fe008b.js.map"
   },
   "entrypoints": [
     "static/css/main.e0cd0851.css",
-    "static/js/main.ef5203cc.js"
+    "static/js/main.62fe008b.js"
   ]
 }
